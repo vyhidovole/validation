@@ -421,25 +421,25 @@
         <form action="#">
           <div class="flex">
             <div class="flex-column">
-              <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Your email" required>
+              <label for="name">First Name</label>
+              <input id="name" type="name" placeholder="First-name*" required>
             </div>
 
             <div class="flex-column">
-              <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Your email">
+              <label for="name">Second Name</label>
+              <input id="name" type="name" placeholder="Second-name*"required >
             </div>
           </div>
 
           <div class="flex">
             <div class="flex-column">
               <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Your email">
+              <input id="email" type="email" placeholder="Your email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required>
             </div>
 
             <div class="flex-column">
-              <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Your email">
+              <label for="tel">Phone number</label>
+              <input id="tel" type="tel" placeholder="Phone number*" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]-[0-9]" required>
             </div>
           </div>
 
@@ -448,7 +448,7 @@
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
 
-          <button class="btn btn-ghost" type="button">Send message</button>
+          <button class="btn btn-ghost" type="submit" value="submit">Send message</button>
         </form>
       </section>
 
