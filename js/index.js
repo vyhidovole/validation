@@ -41,7 +41,7 @@ links.forEach(link => {
 
 /* initialize swiper main page */
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 4,
+  slidesPerView: 5,
   spaceBetween: 30,
   scrollbar: {
     el: '.swiper-scrollbar',
